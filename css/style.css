@@ -14,7 +14,38 @@ font-family: 'Slabo 27px', serif;
 */
 body {
     background-color: #d84315;
-    font-family: 'Slabo 27px', serif;
     
 }
 
+h1, h2 {
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+li {
+    display: inline-block;
+    padding: 0;
+    font-size: 30px;
+}
+
+nav {
+    text-align: center;
+    padding: 0px;
+}
+
+header li{
+    margin: 0 5;
+}
+
+header li:first-of-type {
+    margin-left: 0;
+}
+
+ul {
+    padding: 0px;   
+}
